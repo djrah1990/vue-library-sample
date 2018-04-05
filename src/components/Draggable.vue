@@ -1,16 +1,32 @@
 <template>
   <div class="draggable__wrapper">
-    <div class="test"></div>
+    <draggable :list="dummy" class="dragArea" :options="{draggable:'.box'}">
+      <div class="box" v-for="(item, index) in dummy" :key="index">
+        <p>name: {{item.name}}</p>
+      </div>
+    </draggable>
   </div>
 </template>
 
 <script>
-import Draggable from 'vuedraggable'
+import draggable from 'vuedraggable'
 
+const dummy = [
+  {name: 'John'},
+  {name: 'Jimmy'},
+  {name: 'Dave'},
+  {name: 'Albert'},
+  {name: 'Charlie'}
+]
 export default {
   name: 'Draggable',
+  data () {
+    return {
+      dummy
+    }
+  },
   components: {
-    Draggable
+    draggable
   }
 }
 </script>
