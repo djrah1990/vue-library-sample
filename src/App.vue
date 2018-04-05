@@ -2,6 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png" @click="$router.push('/')" style="cursor:pointer;">
     <router-view/>
+    <p>test</p>
   </div>
 </template>
 
