@@ -1,0 +1,8 @@
+.table__wrapper {
+  display: block;
+  overflow:auto;
+  height: 300px;
+  th, td {
+    min-width: 100px;
+  }
+}
