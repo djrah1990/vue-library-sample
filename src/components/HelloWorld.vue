@@ -18,6 +18,11 @@
           Slider
         </a>
       </li>
+      <li>
+        <a href="/draggable">
+          Draggable
+        </a>
+      </li>
     </ul>
   </div>
 </template>

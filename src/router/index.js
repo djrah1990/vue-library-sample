@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Table from '@/components/Table'
 import Selectbox from '@/components/Selectbox'
 import Slider from '@/components/Slider'
+import Draggable from '@/components/Draggable'
 
 Vue.use(Router)
 
@@ -29,6 +30,11 @@ export default new Router({
       path: '/slider',
       name: 'Slider',
       component: Slider
+    },
+    {
+      path: '/draggable',
+      name: 'Draggable',
+      component: Draggable
     }
   ]
 })
