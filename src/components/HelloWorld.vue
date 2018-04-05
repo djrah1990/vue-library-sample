@@ -13,6 +13,11 @@
           SelectBox
         </a>
       </li>
+      <li>
+        <a href="/slider">
+          Slider
+        </a>
+      </li>
     </ul>
   </div>
 </template>
