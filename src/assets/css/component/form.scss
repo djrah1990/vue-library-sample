@@ -1,0 +1,13 @@
+.form__wrapper {
+  .input--text{
+    width: 300px;
+    padding:12px;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto 12px auto;
+    color: #354052;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
