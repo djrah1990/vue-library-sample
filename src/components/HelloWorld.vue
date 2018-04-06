@@ -28,6 +28,11 @@
           Been
         </a>
       </li>
+      <li>
+        <a href="/form">
+          Form
+        </a>
+      </li>
     </ul>
   </div>
 </template>

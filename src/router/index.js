@@ -6,6 +6,7 @@ import Selectbox from '@/components/Selectbox'
 import Slider from '@/components/Slider'
 import Draggable from '@/components/Draggable'
 import Been from '@/components/Been'
+import Form from '@/components/Form'
 
 Vue.use(Router)
 
@@ -41,6 +42,11 @@ export default new Router({
       path: '/been',
       name: 'Been',
       component: Been
+    },
+    {
+      path: '/form',
+      name: 'Form',
+      component: Form
     }
   ]
 })

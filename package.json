@@ -12,10 +12,12 @@
   },
   "dependencies": {
     "stf-vue-select": "^0.1.11",
+    "text-mask-addons": "^3.7.2",
     "vue": "^2.5.2",
     "vue-pagination-2": "^1.6.1",
     "vue-router": "^3.0.1",
     "vue-slider-component": "^2.6.1",
+    "vue-text-mask": "^6.0.0",
     "vue2-scrollbar": "^0.0.3",
     "vuedraggable": "^2.16.0"
   },
