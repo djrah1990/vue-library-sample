@@ -23,6 +23,11 @@
           Draggable
         </a>
       </li>
+      <li>
+        <a href="/been">
+          Been
+        </a>
+      </li>
     </ul>
   </div>
 </template>

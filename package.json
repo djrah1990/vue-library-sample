@@ -13,6 +13,7 @@
   "dependencies": {
     "stf-vue-select": "^0.1.11",
     "vue": "^2.5.2",
+    "vue-pagination-2": "^1.6.1",
     "vue-router": "^3.0.1",
     "vue-slider-component": "^2.6.1",
     "vue2-scrollbar": "^0.0.3",
