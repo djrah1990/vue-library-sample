@@ -33,6 +33,11 @@
           Form
         </a>
       </li>
+      <li>
+        <a href="/wysiwyg">
+          Wysiwyg
+        </a>
+      </li>
     </ul>
   </div>
 </template>

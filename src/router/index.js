@@ -7,6 +7,7 @@ import Slider from '@/components/Slider'
 import Draggable from '@/components/Draggable'
 import Been from '@/components/Been'
 import Form from '@/components/Form'
+import Wysiwyg from '@/components/Wysiwyg'
 
 Vue.use(Router)
 
@@ -47,6 +48,11 @@ export default new Router({
       path: '/form',
       name: 'Form',
       component: Form
+    },
+    {
+      path: '/wysiwyg',
+      name: 'Wysiwyg',
+      component: Wysiwyg
     }
   ]
 })
