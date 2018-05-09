@@ -38,6 +38,11 @@
           Wysiwyg
         </a>
       </li>
+      <li>
+        <a href="/validate">
+          Validate
+        </a>
+      </li>
     </ul>
   </div>
 </template>

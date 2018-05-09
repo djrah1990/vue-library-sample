@@ -8,6 +8,7 @@ import Draggable from '@/components/Draggable'
 import Been from '@/components/Been'
 import Form from '@/components/Form'
 import Wysiwyg from '@/components/Wysiwyg'
+import Validate from '@/components/Validate'
 
 Vue.use(Router)
 
@@ -53,6 +54,11 @@ export default new Router({
       path: '/wysiwyg',
       name: 'Wysiwyg',
       component: Wysiwyg
+    },
+    {
+      path: '/validate',
+      name: 'Validate',
+      component: Validate
     }
   ]
 })

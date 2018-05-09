@@ -3,6 +3,20 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VeeValidate from 'vee-validate'
+import ko from 'vee-validate/dist/locale/ko.js'
+import dictionary from './dictionary'
+
+const config = {
+  locale: 'ko',
+  dictionary: {
+    ko
+  }
+}
+
+Vue.use(VeeValidate, config)
+
+VeeValidate.Validator.localize(dictionary)
 
 Vue.config.productionTip = false
 
@@ -10,6 +24,6 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
-  components: { App },
+  components: {App},
   template: '<App/>'
 })
